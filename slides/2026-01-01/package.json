@@ -1,0 +1,10 @@
+{
+  "name": "2026-01-01",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export"
+  }
+}

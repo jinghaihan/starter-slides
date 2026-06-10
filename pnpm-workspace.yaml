@@ -1,0 +1,29 @@
+packages:
+  - 'slides/*'
+catalogs:
+  dev:
+    bumpp: ^11.0.1
+    pncat: ^0.11.0
+    simple-git-hooks: ^2.13.1
+    skills-npm: ^1.1.1
+    taze: ^19.10.0
+    tsx: ^4.21.0
+    typescript: ^6.0.2
+  frontend:
+    unocss: ^66.7.0
+  lint:
+    '@octohash/eslint-config': ^0.2.9
+    eslint: ^10.1.0
+    lint-staged: ^16.4.0
+  slides:
+    '@slidev/cli': ^52.16.0
+    '@slidev/client': ^52.16.0
+    '@slidev/theme-default': ^0.25.0
+    slidev-workspace: ^0.9.3
+  test:
+    vitest: ^4.1.2
+  types:
+    '@types/node': ^25.5.0
+onlyBuiltDependencies:
+  - esbuild
+  - simple-git-hooks
